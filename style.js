@@ -21,10 +21,10 @@ fetch("https://fakestoreapi.com/products", options)
         data_products.innerHTML += `
         <div style="text-align:center;margin:5px;padding:5px;border: 1px solid black;border-radius:10px;background-color:white;">
             <div style="background-color:#C1C7C9;"><img style="height:20vh" src="${product.image}"/></div>
-            <h4 style="font-size:48px;">${product.description}</h4>
-            <h1 style="font-bold;font-size:50px">${product.title}</h1>
-            <p style="font-size:44px;">${"rating:   " + product.rating.rate}</p>
-            <h1 style="font-size:60px">${"$" + product.price}</h1>
+            <h4 style="font-size:25px;">${product.description}</h4>
+            <h1 style="font-bold;font-size:30px">${product.title}</h1>
+            <p style="font-size:32px;">${"rating:   " + product.rating.rate}</p>
+            <h1 style="font-size:35px">${"$" + product.price}</h1>
            <div style="padding:9px;"><button style="font-size:50px;background-color:red;border-radius:9px;color:white;">Buy Now</button></div> 
         </div>
         `;
